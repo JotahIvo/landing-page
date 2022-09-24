@@ -1,0 +1,5 @@
+.footer__tittle{
+    text-align: center;
+    padding: 1em 0;
+    border-top: 2px solid var(--main-blue);
+}

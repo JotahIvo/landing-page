@@ -1,0 +1,58 @@
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 3em 7em;
+    height: 75vh;
+}
+
+.main__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__tittle{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 55px;
+    width: 90%;
+}
+
+.main__tittle-blue{
+    color: var(--main-blue);
+}
+
+.main__text{
+    padding: 2em 0;
+    width: 75%;
+    line-height: 20px;
+}
+
+.form__input{
+    width: 60%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 16px;
+}
+
+.form__send{
+    width: 30%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 16px;
+    color: var(--white);
+    background-color: var(--main-blue);
+    font-weight: 700;
+}
+
+.form__send:hover{
+    border: 1px solid var(--main-blue);
+    background: transparent;
+    color: var(--main-blue);
+    transition: 0.5s all;
+    transform: scale(1.05);
+}
+
+.main__img{
+    width: 80%;
+    padding-left: 4em;
+}

@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 7em;
+    height: 10vh;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+}
+
+.header__tittle{
+    font-size: 32px;
+    width: 50%;
+}
+
+.list__link{
+    text-decoration: none;
+    color: var(--white);
+    padding: 0.5em 1.5em;
+}
+
+.list__link:hover{
+    color: var(--main-blue);
+    transition: 0.5s all;   
+}
+
+.list__link-botao{
+    border: 1px solid var(--main-blue);
+    border-radius: 16px;
+}
+
+.list__link-botao:hover{
+    color: var(--white);
+    background-color: var(--main-blue);
+}
